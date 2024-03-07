@@ -1,16 +1,49 @@
 # ocr_flutter
 
-A new Flutter project.
+This Flutter application demonstrates the implementation of text recognition using the Google ML Kit plugin. Users can select an image from their device's gallery, and the app will recognize any text present in the image.
+
+## Features
+
+- Image selection from the device's gallery.
+- Text recognition using Google ML Kit.
+- Display of recognized text on the screen.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK installed. [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
+- Android Studio / Xcode for Android / iOS development.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/text_recognition_flutter.git
+   ```
+
+2. Change into the project directory:
+
+   ```bash
+   cd text_recognition_flutter
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+### Usage
+
+1. Run the app on an emulator or physical device:
+
+   ```bash
+   flutter run
+   ```
+
+2. On the Text Recognition screen, tap the "Get/Process Image" button to select an image from the device's gallery.
+
+3. View the recognized text displayed below the button.
+
